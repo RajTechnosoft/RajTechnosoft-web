@@ -1,0 +1,263 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden !important;
+}
+:root {
+  --bs-dark-color: #1a1d20;
+  --bs-dark-primary: #1c1c1c;
+  --bs-main-color: #fff;
+  --bs-primary-color: #c6c6c6;
+  --secondary-color: #29a9fd;
+  --bs-supporting-color: #c850c0;
+}
+.container {
+  overflow-x: hidden !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: sans-serif;
+  color: var(--bs-dark-color);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+p {
+  margin: 0px;
+  font-weight: 400;
+  color: var(--bs-dark-color);
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.bg-color {
+  background-color: var(--bs-dark-color);
+}
+button,
+a {
+  font-size: 1.15rem !important;
+}
+.common-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem !important;
+}
+.common-title {
+  margin-bottom: 4.2rem;
+}
+/* navbar style */
+.nav-link {
+  color: var(--bs-main-color);
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+/* hero secton start  */
+.bg-main {
+  min-height: 110vh;
+  position: relative;
+}
+.hero-section .container {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+.hero-video-section {
+  width: 13rem;
+  border-radius: 2rem;
+}
+.text-light-gray {
+  color: var(--bs-primary-color);
+}
+.custom-shape-divider-bottom-1741266747 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1741266747 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 78px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1741266747 .shape-fill {
+  fill: #ffffff;
+}
+/* css of servises section */
+.servises-section {
+  padding: 6rem 0px 3rem 0px;
+}
+.icon-span {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--secondary-color);
+  background-color: var(--bs-main-color);
+}
+.card-box:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+/* digital products css */
+.more-info-section {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.7),
+      rgba(22, 22, 22, 0.9)
+    ),
+    url("https://www.shapesbyhydro.com/globalassets/shapes/expert-thoughts/materials-for-supertall-buildings01.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0px;
+  overflow: hidden;
+}
+.more-info-section .img-section {
+  position: relative;
+}
+
+/* onliine section css */
+.bussiness-section {
+  padding-top: 3rem;
+}
+/* testimonial css */
+.common-section {
+  padding: 5rem 0px 10rem 0px;
+  /* margin: 1rem; */
+}
+.carousel .card {
+  background-color: #262631;
+  color: var(--bs-primary-color);
+  transition: all 0.3s linear;
+  padding: 1rem;
+}
+.carousel .card p {
+  color: var(--bs-main-color);
+}
+.carousel .card:hover {
+  background-color: var(--bs-main-color);
+  color: var(--bs-dark-color);
+  p {
+    color: black;
+    /* background-color: red; */
+  }
+}
+
+.fa-star {
+  color: var(--bs-supporting-color);
+}
+/* the css of technical section */
+.text-grey {
+  color: var(--bs-primary-color);
+}
+/* contact us  */
+.contact-section {
+  position: relative;
+}
+.custom-shape-divider-top-1741337277 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1741337277 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 44px;
+}
+
+.custom-shape-divider-top-1741337277 .shape-fill {
+  fill: #ffffff;
+}
+.contact-section .common-title {
+  padding-top: 6rem;
+}
+label {
+  color: white;
+}
+.form-group {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* footer */
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  height: 30px;
+  border-radius: 30px;
+  padding-left: 50px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #888;
+}
+.footer-section a {
+  color: white;
+  opacity: 0.5;
+  font-size: 0.9rem !important;
+}
+.footer-section .heading {
+  color: white;
+}
+textarea {
+  resize: none;
+  margin-top: 1rem;
+}
+input {
+  margin-top: 0.5rem;
+}
+
+/* responsive code */
+@media screen and (max-width: 846px) {
+  .hero-video {
+    margin: 2rem auto;
+    width: 90%;
+  }
+}
+@media screen and (max-with: 708px) {
+  .expert-section .card {
+    width: 90%;
+    background-color: red;
+  }
+}
